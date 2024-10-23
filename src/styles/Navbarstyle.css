@@ -1,0 +1,35 @@
+.rightNav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightNav li{
+  margin: 0px 15px;
+}
+.rightNav li a{
+text-decoration: none;
+color: white;
+}
+.mobileRightNav{
+  list-style: none;
+} 
+.mobileRightNav li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+} 
+
+.mobileRightNav li{
+  margin-right: 44px;
+  margin-top: 15px;
+}
+
+.icoon{
+  text-decoration: none;
+  list-style: none;
+  color:goldenrod;
+}
+.active{
+  color: goldenrod !important;
+}

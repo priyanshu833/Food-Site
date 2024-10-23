@@ -1,0 +1,49 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.homeContainer{
+    margin-left: 35px;
+    padding: 10px 0px;
+}
+.homeContainer h1{
+    font-size: 4rem;
+
+}
+.homeContainer p{
+    font-size: 2rem;
+    font-weight: 450;
+}
+.homeContainer button{
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    width: 170px;
+    height: 35px
+}
+@media only screen and (max-width:600px) {
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+    .homeContainer{
+        margin-left: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .homeContainer h1{
+        font-size: 3.5rem;
+    }
+}
